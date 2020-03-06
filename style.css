@@ -1,0 +1,338 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color:#b2bec3;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	
+}
+.outernav
+{
+	width:100%;
+	background-color: black;
+	transform: translate(0%,0%);
+	position: absolute;
+}
+.outernav > i{
+	top:25%;
+	color:white;
+	left:2%;
+	position:relative;
+	cursor: pointer;
+}
+.outernav > i:hover{
+	box-shadow: 0px 5px 20px white;
+}
+.outernav a{
+	top:20%;
+	left:13%;
+	padding:0 20px;
+	color: white;
+	font-size: 29px;
+	text-decoration: none;	
+	position: relative;
+}
+.outernav a:hover{
+	background-color:#f1f2f6;
+	color: black;
+}
+.box
+{
+	padding: 0px;
+	margin: 0px;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	background-color: black;
+	top:50%;
+	left:50%;	
+	width: 400px;
+	margin-top: 150px;
+	height:auto;
+	box-shadow: 0 10px 10px black;
+}
+.barbox{
+	padding: 0px;
+	margin: 0px;
+	position:absolute;
+	background-color: black;
+	top:5%;
+	left:0%;	
+	width:220px;
+	height:auto;
+	color:white;
+	display: none;
+}
+.icon {
+	position: relative;
+}
+.icon  >i{
+	position: absolute;
+}
+.barbox > form > .btn >input{
+	width:120px;
+}
+.barbox > i{
+	color:white;
+	top:42%;
+	width:auto;
+	float:right;
+	margin-right:10px;
+}
+.barbox .btn{
+	text-align:left;
+}
+h3{
+	margin-top: 30px;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+form{
+	text-align: center;
+}
+form span{
+	position: relative;
+}
+form span i{
+	top:7%;
+	margin-left:20px;
+	position: absolute;
+}
+table{
+	width: 100%;
+}
+.icon i{
+	margin-left: 40px;
+	top:7%;
+	position: absolute;
+}
+form input
+{
+	padding: 10px;
+	padding-left: 33px;
+	outline: none;
+	margin:10px;
+	margin-left:33px;
+	border:none;
+	width: 200px;
+	color:white;
+	background: transparent;
+	border: 2px solid lightgrey;
+	border-radius: 10px;
+}
+.btn{
+	padding-top:10px; 
+	margin-bottom:12px;
+}
+.btn >a> input
+{
+	display: inline-block;
+	//border: 1px solid #0984e3;
+	width:80px;
+	background:#1b00ff;
+	text-align:center;
+	padding:5px;
+	border-radius:25px;
+	color:white;
+	cursor:pointer;
+	border-radius: 25px;
+	text-transform:uppercase;
+}
+
+.btn >a>input:hover
+{
+	background-color: white;
+	color: black;
+	width:90px;
+	transition: 0.5s;
+	font-weight: bold;
+}
+
+.btn > input
+{
+	display: inline-block;
+	//border: 1px solid #0984e3;
+	width:180px;
+	background:#1b00ff;
+	text-align:center;
+	padding:5px;
+	border-radius:25px;
+	color:white;
+	cursor:pointer;
+	border-radius: 25px;
+	text-transform:uppercase;
+}
+.btn >input:hover
+{
+	background-color: white;
+	color: black;
+	width: 200px;
+	transition: 0.5s;
+}
+.box p{
+	padding: 10px;
+	margin:10px;
+	display: inline-block;
+	margin-top: 30px;
+	color: white;
+	font-family: sans-serif;
+
+}
+.dropdown{
+	outline: none;
+	padding: 10px;
+	margin:10px;
+	border:none;
+	width: 200px;
+	color:white;
+	background: transparent;
+	border: 2px solid lightgrey;
+
+}
+.dropdown >option{
+	color:black;
+}
+.dropdown >option:hover{
+	color:white;
+	background-color: black;
+}
+table{
+	color: white;
+	text-align: center;
+}
+td
+{
+	text-align: center;
+}
+.contactbox{
+	cursor: pointer;
+	display: inline-block;
+	padding: 0px;
+	margin: 100px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: black;
+	top:20%;
+	left:5%;	
+	width:100px;
+	height:100px;
+}
+.contactbox:hover{
+	box-shadow: 0px 5px 25px white;
+}
+.contactbox > i{
+	padding: 0px;
+	position: absolute;
+	top:20%;
+	left:20%;	
+	width:auto;
+	height:auto;
+
+}
+.contactheading{
+	display: inline-block;
+	padding: 0px;
+	margin:115px;
+	border-radius: 50%;
+	position: absolute;
+	top:33%;
+	left:5%;	
+	width:100px;
+	height:100px;	
+	font-size:20px;
+}
+.contactdetails{
+	display: inline-block;
+	padding: 0px;
+	margin:115px;
+	border-radius: 50%;
+	position: absolute;
+	top:38%;
+	left:5%;	
+	width:190px;
+	height:100px;	
+	font-size:15px;
+	opacity: 0.5;
+}
+.socialmedia{
+	cursor: pointer;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: black;
+	top:80%;
+	left:40%;	
+	width:35px;
+	height:35px;
+	//box-shadow: 0 10px 10px black;
+}
+.socialmedia >i {
+	padding: 0px;
+	position: absolute;
+	top:30%;
+	left:40%;	
+	width:auto;
+	height:auto;
+}
+.socialmedia:hover{
+	box-shadow: 0px 5px 25px white;
+}
+.l{
+	font-size:20px;
+	color:white;
+}
+.footer{
+	width:100%;
+	background-color: black;
+	top:95%;
+	position: absolute;
+}
+.footer > h3{
+	font-size: 15px;
+	margin-top: 0px;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	position: relative;
+	height: auto;
+	margin-bottom: 0px;
+}
+.address {
+	position: relative;
+	background: transparent;
+}
+.address > textarea{
+	height: 100px;
+	width: 200px;
+	color:white;
+	background: transparent;
+	border: 2px solid lightgrey;
+	padding: 10px;
+	padding-left: 33px;
+	margin:10px;
+	margin-left:33px;
+}
+i{
+	color: #1b00ff;
+}
+.addressicon{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	right: 277px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
